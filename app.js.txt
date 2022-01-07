@@ -1,0 +1,18 @@
+import "./styles.css";
+import List from "./List";
+
+import Data from "./Data";
+import React, { useState } from "react";
+
+const App = () => {
+  const [people, setPeople] = useState(Data);
+
+  return (
+    <div>
+      <h2>Welcome to our Team DeV</h2>
+      <h3>we are team of {people.length} </h3>
+      <List people={people} />
+    </div>
+  );
+};
+export default App;

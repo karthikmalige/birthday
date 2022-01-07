@@ -1,0 +1,32 @@
+* {
+  background: blueviolet;
+}
+.karthik3 {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+.priyanka {
+  display: flex;
+  margin-top: 40px;
+  list-style: none;
+}
+.karthikMain {
+  margin-left: 30px;
+}
+@media screen and (max-width:700px){
+  .karthik3 {
+    height: 60px;
+    width: 60px;
+    border-radius: 50%;
+  }
+  .priyanka {
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    list-style: none;
+    align-items: center;
+  }
+  .karthikMain {
+    text-align: center;
+width:70%;}

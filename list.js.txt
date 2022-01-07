@@ -1,0 +1,27 @@
+const List = ({ people }) => {
+  return (
+    <div>
+      {people.map((New) => (
+        <div className="priyanka">
+          <div>
+            <img className="karthik3" src={New.image} />
+          </div>
+          <div className="karthikMain">
+            <li className="karthik">
+              <b>Name:{New.name}</b>
+            </li>
+            <li className="karthik1">
+              {" "}
+              <b>Age:{New.age}</b>
+            </li>
+            <li className="karthik2">
+              {" "}
+              <b>Company:{New.comapany}</b>
+            </li>
+          </div>
+        </div>
+      ))}
+    </div>
+  );
+};
+export default List;

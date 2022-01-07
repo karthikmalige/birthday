@@ -1,0 +1,37 @@
+export default [
+  {
+    name: "karthik",
+    age: 25,
+    comapany: "appmajix",
+    image:
+      "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Mahesh_Babu_in_Spyder_%28cropped%29.jpg/330px-Mahesh_Babu_in_Spyder_%28cropped%29.jpg"
+  },
+  {
+    name: "Srihari",
+    age: 26,
+    comapany: "Mindmajix and tekslate ",
+    image:
+      "https://english.cdn.zeenews.com/sites/default/files/2021/12/07/993742-prabhas.png"
+  },
+  {
+    name: "teja",
+    age: 27,
+    comapany: "tekslate",
+    image:
+      "https://in.bmscdn.com/iedb/artist/images/website/poster/large/ram-charan-teja-1046368-19-09-2017-02-37-43.jpg"
+  },
+  {
+    name: "swapnil",
+    age: 28,
+    comapany: "mindmajix",
+    image:
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ-Pu19gSz3uRHCfdnqcW3Z7H1xPzXKYFrmiw&usqp=CAU"
+  },
+  {
+    name: "sowmya",
+    age: 29,
+    comapany: "unitedskill",
+    image:
+      "https://drive.google.com/file/d/19xkm9MPTEaobP_geIC03smpEaUoORh4v/view"
+  }
+];
